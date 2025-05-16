@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output (if frontend is built outside of /frontend/dist, e.g. top-level dist)
+# /dist
+
+# Optional: Ignore frontend node_modules if frontend is a submodule or managed separately
+# but since it's now part of the backend project, it's usually committed or built by backend script
+# frontend/node_modules/
+
+# Frontend build output (if you don't want to commit it, and build on deploy)
+# frontend/dist/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
